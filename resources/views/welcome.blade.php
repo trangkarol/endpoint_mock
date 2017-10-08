@@ -81,6 +81,9 @@
                 <div class="title m-b-md">
                     Laravel
                 </div>
+                <div id="app">
+                    @{{ t('message.hello') }}
+                </div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
@@ -91,5 +94,6 @@
                 </div>
             </div>
         </div>
+        {!! Html::script('fontend/js/app.js') !!}
     </body>
 </html>
